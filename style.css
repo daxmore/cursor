@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 10rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cursor{
+    height: 2rem;
+    width: 2rem;
+    mix-blend-mode: difference;
+    border-radius: 50%; 
+    background: #b3aeae;
+    position: absolute;
+    transition: 0.1s;
+}
